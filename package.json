@@ -1,12 +1,16 @@
 {
-  "name": "vue-after-free",
+  "name": "ALssouRy-Station-Vue",
+  "version": "1.0.0",
+  "description": "Custom PS4 Exploit Host for Firmware 7.00 - 13.00",
+  "author": "Your Name Here",
   "module": "index.ts",
   "type": "module",
   "private": true,
   "scripts": {
     "build": "babel --extensions \".ts\" src --out-dir dist && mkdir -p dist/download0/img && cp -r src/download0/img/text src/download0/img/susec src/download0/img/feil dist/download0/img/",
     "lint": "eslint . --ext .ts,.js",
-    "lint:fix": "eslint . --ext .ts,.js --fix"
+    "lint:fix": "eslint . --ext .ts,.js --fix",
+    "dev": "jiti src/index.ts"
   },
   "peerDependencies": {
     "typescript": "^5"
@@ -25,4 +29,3 @@
     "jiti": "^2.6.1",
     "neostandard": "^0.12.2"
   }
-}
