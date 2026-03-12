@@ -7,7 +7,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "babel --extensions \".ts\" src --out-dir dist && mkdir -p dist/download0/img && cp -r src/download0/img/text src/download0/img/susec src/download0/img/feil dist/download0/img/",
+    "build": "babel --extensions \".ts\" src --out-dir dist && mkdir -p dist/download0/img && cp -r src/download0/img/ dist/download0/",
     "lint": "eslint . --ext .ts,.js",
     "lint:fix": "eslint . --ext .ts,.js --fix",
     "dev": "jiti src/index.ts"
@@ -29,3 +29,4 @@
     "jiti": "^2.6.1",
     "neostandard": "^0.12.2"
   }
+}
