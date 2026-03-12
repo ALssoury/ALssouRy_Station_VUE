@@ -2,7 +2,7 @@
     <img width="25%" height="25%" alt="logo2" src="https://raw.githubusercontent.com/ALssoury/ALssouRy_Station_VUE/refs/heads/main/src/icon/icon0.png" />
 </p>
 
-<h1 align="center"> Vue-After-Free </h1>
+<h1 align="center"> ALssouRy </h1>
 <p  align="center">
     A PlayStation Vue userland code execution exploit for Playstation 4.
 </p>
